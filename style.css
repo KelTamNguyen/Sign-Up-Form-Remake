@@ -1,0 +1,23 @@
+@import "modern-normalize.css";
+
+:root {
+  --clr-dark-green: #596D48;
+  --clr-light-gray: #E5E7EB;
+}
+
+body {
+  line-height: 1.5;
+}
+
+@font-face {
+  font-family: 'Norse Bold';
+  src: url('./assets/fonts/Norse-Bold.otf');
+}
+
+form {
+
+}
+
+input, button, textarea, select {
+  font: inherit;
+}

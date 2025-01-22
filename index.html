@@ -4,10 +4,66 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="./assets/icons/odin-lined.png" type="image/x-icon">
   <script src="script.js"></script>
   <title>Sign Up | Odin</title>
 </head>
 <body>
-  <h1>Hello World</h1>
+  <main>
+    <section id="sidebar">
+      <div id="sidebar-overlay">
+        <img id="logo-icon" src="assets/icons/odin-lined.png" alt="odin logo">
+        ODIN
+      </div>
+      <span id="credit">Photo by <a href="https://unsplash.com/@haliewestphoto">Halie West</a> on <a href="https://unsplash.com/">Unsplash</a></span>
+    </section>
+    <section id="signup">
+      <section id="cta">
+        <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams <br> Sign up <em>now</em> to get started.</p>
+        <p>You <em>know</em> you want to.</p>
+      </section>
+      <section id="form-container">
+        <form id="signup-form" action="" method="post">
+          <legend>Let's do this!</legend>
+          <div class="form-field-row">
+            <div class="form-field">
+              <label for="first-name">First Name</label>
+              <input type="text" id="first-name" name="firstName">
+            </div>
+            <div class="form-field">
+              <label for="last-name">Last Name</label>
+              <input type="text" id="last-name" name="lastName">
+            </div>
+          </div>
+          <div class="form-field-row">
+            <div class="form-field">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email">
+            </div>
+            <div class="form-field">
+              <label for="phone-number">Phone Number</label>
+              <input type="tel" name="phoneNumber" id="phone-number">
+            </div>
+          </div>
+          <div class="form-field-row">
+            <div class="form-field">
+              <label for="password">Password</label>
+              <input type="password" id="password" name="password" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#$%^&*_=+-]).{8,12}$" required>
+            </div>
+            <div class="form-field">
+              <label for="confirm-password">Confirm Password</label>
+              <input type="password" id="confirm-password" name="confirmPassword" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#$%^&*_=+-]).{8,12}$" required>
+            </div>
+          </div>
+        </form>
+      </section>
+      <section id="form-action-container">
+        <div id="form-actions">
+          <button id="submit-btn" type="submit" form="signup-form">Create Account</button>
+          <p id="login">Already have an account? <a href="">Log in</a></p>
+        </div>
+      </section>
+    </section>
+  </main>
 </body>
 </html>

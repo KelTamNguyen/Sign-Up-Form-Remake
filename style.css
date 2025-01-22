@@ -81,11 +81,12 @@ main {
   display: flex;
   flex-direction: column;
   gap: 4px;
+  justify-content: center;
 }
 
 #cta p {
   font-weight: bold;
-  font-size: 1rem;
+  font-size: 1.2rem;
   margin-left: 75px;
   margin-top: 50px;
   width: min(600px, 100%);
@@ -94,6 +95,8 @@ main {
 #form-container {
   height: 34vh;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  display: flex;
+  align-items: center;
 }
 
 form {
@@ -111,7 +114,7 @@ form {
 
 legend {
   margin-top: 16px;
-  font-size: 1rem;
+  font-size: 1.2rem;
   font-weight: bold;
 }
 

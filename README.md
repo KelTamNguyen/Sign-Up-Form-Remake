@@ -7,7 +7,6 @@ Sign Up form for fictional online service ODIN.
 - Javascript
 
 # Live Demo
-View live at https://github.com/KelTamNguyen/Sign-Up-Form-Remake/deployments/github-pages
-
+View live at https://keltamnguyen.github.io/Sign-Up-Form-Remake/
 # Credits
 Background Image provided by [Halie West](https://unsplash.com/@haliewestphoto)

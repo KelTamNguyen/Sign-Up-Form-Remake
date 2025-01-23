@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
   <link rel="shortcut icon" href="./assets/icons/odin-lined.png" type="image/x-icon">
-  <script src="script.js"></script>
+  <script src="script.js" defer></script>
   <title>Sign Up | Odin</title>
 </head>
 <body>
@@ -28,11 +28,11 @@
           <div class="form-field-row">
             <div class="form-field">
               <label for="first-name">First Name</label>
-              <input type="text" id="first-name" name="firstName">
+              <input type="text" id="first-name" name="firstName" required>
             </div>
             <div class="form-field">
               <label for="last-name">Last Name</label>
-              <input type="text" id="last-name" name="lastName">
+              <input type="text" id="last-name" name="lastName" required>
             </div>
           </div>
           <div class="form-field-row">
@@ -48,11 +48,11 @@
           <div class="form-field-row">
             <div class="form-field">
               <label for="password">Password</label>
-              <input type="password" id="password" name="password" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#$%^&*_=+-]).{8,12}$" required>
+              <input type="password" id="password" name="password" pattern="(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])\S{6,}" required>
             </div>
             <div class="form-field">
               <label for="confirm-password">Confirm Password</label>
-              <input type="password" id="confirm-password" name="confirmPassword" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#$%^&*_=+-]).{8,12}$" required>
+              <input type="password" id="confirm-password" name="confirmPassword" pattern="(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])\S{6,}" required>
             </div>
           </div>
         </form>

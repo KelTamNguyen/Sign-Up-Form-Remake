@@ -89,7 +89,7 @@ main {
   font-size: 1.2rem;
   margin-left: 75px;
   margin-top: 50px;
-  width: min(600px, 100%);
+  width: min(700px, 100%);
 }
 
 #form-container {
@@ -103,7 +103,7 @@ form {
   display: flex;
   flex-direction: column;
   gap: 12px;
-  width: min(600px, 100%);
+  width: min(700px, 100%);
   margin-left: 75px;
 }
 
@@ -134,7 +134,7 @@ input, button, textarea, select {
 input {
   border: 3px solid var(--clr-light-gray);
   border-radius: 4px;
-  width: 250px;
+  width: 300px;
 }
 
 input:focus {
